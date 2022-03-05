@@ -85,9 +85,13 @@ require_once("../Scripts/utiles.php");
                                                             },
                                                             success: function(res) {
                                                                 if (res == 1) {
-                                                                    alert("deleted")
-                                                                    window.location.reload();
+                                                                    alertify.success("deleted")
+                                                                    setTimeout(() => {
+                                                                        window.location.reload();
+
+                                                                    }, 700);
                                                                 } else {
+                                                                    alertify.error("Something went wrong!");
                                                                     console.log(res);
                                                                 }
                                                             }
