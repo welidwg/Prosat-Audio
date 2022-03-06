@@ -39,7 +39,7 @@ require_once("./nav.php");
             <div class="col-md-8" style="margin: 0 auto; ">
                 <div class="card shadow mb-3" style="padding: 9px;">
                     <div class="card-header py-3">
-                        <p class="text-primary m-0 fw-bold">Product Add</p>
+                        <p class="text-primary m-0 fw-bold">Category Add</p>
                     </div>
                     <form enctype="multipart/form-data" id="catAdd">
                         <div class="form-group">
